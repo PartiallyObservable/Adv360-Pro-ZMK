@@ -2,7 +2,7 @@ macro_shift_prntscrn: macro_shift_prntscrn{
 compatible = "zmk,behavior-macro";
 label = "macro_shift_prntscrn";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp PRINTSCREEN>;
+bindings = <&kt LEFT_SHIFT>, <&kp PRINTSCREEN>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
